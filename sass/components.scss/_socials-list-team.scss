@@ -1,0 +1,34 @@
+.socials-list-team__link{
+    fill:#AFB1B8;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.socials-list-team{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding:0 0 30px 0;
+    justify-content: center;
+    
+}
+
+.socials-list-team__item {
+    width: 44px;
+    height: 44px;
+}
+
+.socials-list-team__link:hover,
+.socials-list-team__link:focus
+{
+    background:var(--accent-color) ;
+    fill:var(--primary-white-color) ;
+}

@@ -1,0 +1,135 @@
+.modal-title{
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.17;
+    letter-spacing: .03em;
+    margin-bottom: 12px;
+}
+
+
+.form-field-label{
+    font-size: 12px;
+    margin-bottom: 4px;
+    color: var(--primary-text-color);
+   
+}
+
+.form-field-input{
+    height: 40px;
+    width: 100%;
+    padding: 0 12px 0 42px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.form-field-textarea{
+    height: 120px;
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    outline: none;
+    color: var(--primary-text-color);
+    font-size: 12px;
+    margin-bottom: 20px;
+    resize: none;
+       
+}
+
+
+.form-field-input:focus,
+.form-field-input:hover{
+    border-color: var(--accent-color);
+}
+
+.form-field-textarea:focus,
+.form-field-textarea:hover{
+    border-color: var(--accent-color); 
+}
+
+.form-field-input:focus + .form-field-icon,
+.form-field-input:hover + .form-field-icon{
+    fill: var(--accent-color);
+}
+
+.form-field-textarea::placeholder{
+    font-size: 12px;
+    line-height: 1.17; 
+}
+
+
+.form-field{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.form-field-icon{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+}
+
+.form-field-checkbox{
+    margin-bottom: 30px;
+
+}
+.form-field-checkbox a{
+    color: var(--accent-color);
+    text-decoration-color: var(--accent-color);
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.checkbox{
+    display: flex;  
+}
+
+.checkbox-icon{
+    position: absolute;
+    margin-right: 7px;
+    fill: transparent;
+    border: 2px solid var(--accent-background-color);
+    border-radius: 2px;
+
+}
+
+ .checkbox-input:checked + .checkbox-icon{
+   fill: var(--accent-background-color);
+   background-color: var(--accent-background-color);
+ }
+
+ .checkbox-input{
+    appearance: none;
+ }
+
+.checkbox-label{
+    position: relative;
+    font-size: 14px;
+    padding-left: 24px;
+    color: var(--primary-text-color);
+    cursor: pointer;
+}
+
+
+.form-submit{
+    display: block; 
+    width: 200px;
+    height: 50px;
+    margin: 0 auto; 
+    padding: 0;
+    border-style: none;
+    border-radius: 4px;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    line-height: 1.87;
+    background-color: var(--accent-background-color);
+    color: var(--primary-white-color);
+    
+    cursor: pointer;
+    
+}
+

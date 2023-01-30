@@ -1,0 +1,20 @@
+.button{
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-white-color); 
+    background-color: var(--accent-background-color); 
+    border-style: none;
+    border-radius: 4px;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    
+    display: inline-block;
+    padding: 10px 32px;
+    min-width: 216px;
+
+    cursor: pointer;
+    
+} 

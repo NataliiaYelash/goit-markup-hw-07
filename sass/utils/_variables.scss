@@ -1,0 +1,29 @@
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color: #2196F3;
+    --primary-white-color:#ffffff;
+    --primary-black-color:#000000;
+    --hero-background-color:#2F303A;
+    --accent-background-color:#2196F3;
+    --background-our-team: #F5F4FA;    
+
+} 
+
+body{
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link,
+.socials-link-team,
+.clients-link,
+.socials-link,
+.btn,
+.flex-border,
+li.clients-item
+{ 
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+

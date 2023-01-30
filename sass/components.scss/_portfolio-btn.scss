@@ -1,0 +1,31 @@
+.portfolio__btn{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    color: var(--title-text-color);
+    background-color: var(--background-our-team);
+    border-style: none;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    padding: 6px 22px;
+
+    cursor: pointer;
+    
+}
+
+.portfolio__item-btn:not(:last-child){
+    margin-right: 8px;
+}
+
+
+.portfolio__btn:hover,
+.portfolio__btn:focus{
+    color: var(--primary-white-color);
+    background-color: var(--accent-background-color);     
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); 
+
+} 
